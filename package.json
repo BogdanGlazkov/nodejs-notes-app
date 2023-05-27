@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-notes-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BogdanGlazkov/nodejs-notes-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BogdanGlazkov/nodejs-notes-app/issues"
+  },
+  "homepage": "https://github.com/BogdanGlazkov/nodejs-notes-app#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
