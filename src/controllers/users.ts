@@ -89,7 +89,8 @@ export const login: RequestHandler<
       throw createHttpError(401, "Wrong login or password");
     }
 
-    const passwordMatch = bcrypt.compare(password, user.password);
+    const passwordMatch = await bcrypt.compare(password, user.password);
+
     if (!passwordMatch) {
       throw createHttpError(401, "Wrong login or password");
     }
